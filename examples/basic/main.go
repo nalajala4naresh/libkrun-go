@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mishushakov/libkrun-go/krun"
+	"github.com/nalajala4naresh/libkrun-go/krun"
 )
 
 func main() {

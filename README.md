@@ -5,7 +5,7 @@ Go bindings for [libkrun](https://github.com/containers/libkrun), a dynamic libr
 ## Installation
 
 ```bash
-go get github.com/mishushakov/libkrun-go/krun
+go get github.com/nalajala4naresh/libkrun-go/krun
 ```
 
 libkrun must be installed on your system. The bundled header in `libkrun/include/libkrun.h` is used at build time when the submodule is present. Otherwise, `pkg-config` is used to locate headers and the shared library (`libkrun.so` or `libkrun.dylib`), and you can override paths with `CGO_CFLAGS`/`CGO_LDFLAGS`.
@@ -51,7 +51,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/mishushakov/libkrun-go/krun"
+	"github.com/nalajala4naresh/libkrun-go/krun"
 )
 
 func main() {
